@@ -4,6 +4,7 @@
   padding: 0;
 }
 body{
+  box-sizing: content-box;
   font-family: 'Rubik', sans-serif;
 }
 .container{
@@ -33,21 +34,25 @@ body{
   color: rgba(114, 150, 238, 1);
 }
 .header-list{
-  list-style-type: none;
   display: flex;
-  text-align: center;
+  justify-content: center;
   align-items:center;
+  text-align: center;
+  list-style-type: none;
   font-weight: 400;
 }
-.header-list-item-valuete{
+.header-list-item-dollar{
   display: flex;
-  padding-right: 247px;
+  padding-left: 41px;
 }
-.valuete-sing{
+.header-list-item-rubl{
+  display: flex;
+  padding-left: 25px;
+  padding-right: 215px;
+}
+.valuete-sign{
+  font-weight: 700;
   color: rgba(41, 89, 206, 1);
-}
-.valyuta{
-  margin-right: 25px;
 }
 .search-pic{
   margin: 13px 12px 15px 6px;
