@@ -17,20 +17,19 @@ body{
 
 /* HEADER */
 .site-header{
-  max-width: 1440px;
+  max-width: 1550px;
   width: 100%;
-  height: 105px;
 
 }
 .header-logo{
-  padding-top: 38px;
-  padding-bottom: 39px;
-  padding-left: 126px;
-  padding-right: 41px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 125px;
+  padding-right: 40px;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 24px;
-  line-height: 28.44px;
+  line-height: 30px;
   color: rgba(114, 150, 238, 1);
 }
 .header-list{
@@ -100,5 +99,26 @@ body{
   background: rgba(114, 150, 236, 1);
   color:#fff;
   padding: 13px 20px;
+  margin: 43px 140px 43px 45px;
   font-weight: 500;
+}
+.header-sign-up{
+  text-decoration: none;
+  color: #fff;
+}
+/* SITE-HEADER-LINKS */
+.site-header-links{
+  max-width: 1300px;
+  width: 100%;
+  display: flex;
+  justify-content:space-around;
+  margin-left: 120px;
+  margin-right: 120px;
+  font-weight: 500;
+  color: rgba(127, 127, 127, 1);
+  margin: 30px 120px 40px 120px;
+}
+.site-header-link-item{
+  text-decoration: none;
+  list-style: none;
 }
