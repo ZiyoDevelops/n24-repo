@@ -115,10 +115,10 @@ body{
   margin-left: 120px;
   margin-right: 120px;
   font-weight: 500;
-  color: rgba(127, 127, 127, 1);
   margin: 30px 120px 40px 120px;
 }
 .site-header-link-item{
+  color: rgba(127, 127, 127, 1);
   text-decoration: none;
   list-style: none;
 }
