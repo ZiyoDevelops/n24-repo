@@ -127,3 +127,7 @@ body{
   text-decoration: none;
   list-style: none;
 }
+.site-header-link-item :hover{
+  color:rgba(114, 150, 236, 1);
+  cursor: pointer;
+}
